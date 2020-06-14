@@ -31,12 +31,12 @@ $ npx process-usage
 ## Usage
 
 ```js
-const procStats = require('process-usage')()
+const procUsage = require('process-usage')()
 
 // print collector stats
-console.log(procStats())
+console.log(procUsage())
 
 // destroy collector
-console.log(procStats.destroy())
+console.log(procUsage.destroy())
 ```
 
